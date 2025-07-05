@@ -150,6 +150,4 @@ Se modeló la producción de petróleo (`oil_bbl`) en función de la presión de
 ---
 
  *Análisis desarrollado con Python, pandas, seaborn, scikit-learn y matplotlib*  
- Proyecto: `analisis-produccion-petrolera`  
- Autores: *[Vanessa Morales - Isanevys Urdaneta]*  
- Julio 2025
+
