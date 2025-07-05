@@ -43,7 +43,7 @@ La gráfica muestra la distribución de la producción de petróleo (oil_bbl):
 Eje X (barril de petróleo):
 Representa la cantidad de barriles de petróleo producidos. Los valores van desde menos de 40.000 hasta más de 100.000 barriles.
 
-Eje Y (Conde):
+Eje Y :
 Representa la frecuencia o el número de veces que se observa una determinada cantidad de producción de petróleo.
 
 Distribución bimodal:
