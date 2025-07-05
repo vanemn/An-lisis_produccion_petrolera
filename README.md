@@ -111,10 +111,6 @@ Se modeló la producción de petróleo (`oil_bbl`) en función de la presión de
 - **Campos a monitorear:** *Cusiana* y *Cupiagua* debido a mayor proporción de días con alto corte de agua.
 - **Modelado:** El modelo lineal simple no es suficiente. Se recomienda un modelo multivariado no lineal.
 - **Eficiencia operativa:** Rubiales y Chichimene mantienen valores operativos más estables.
-- **Próximos pasos sugeridos:**
-  - Incluir variables adicionales como profundidad, gas, tiempo.
-  - Aplicar clustering para segmentar tipos de pozos.
-  - Evaluar modelos de regresión multivariada o basados en árboles.
 
 ---
 
