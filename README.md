@@ -1,6 +1,6 @@
 # An-lisis_produccion_petrolera
 
-# 🛢️ Informe de Tarea Interna – Análisis de Producción Petrolera en Colombia
+#  Informe de Tarea Interna – Análisis de Producción Petrolera en Colombia
 
 **Empresa:** Ecopetrol S.A.  
 **Departamento:** Dirección Técnica de Producción  
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 Realizar un análisis integral del comportamiento diario de producción de petróleo, gas y condiciones de yacimiento en cuatro campos colombianos para:
 
@@ -21,7 +21,7 @@ Realizar un análisis integral del comportamiento diario de producción de petr�
 
 ---
 
-## 🧪 1. Preparación de los Datos y EDA
+## 1. Preparación de los Datos y EDA
 
 - Se creó una clase `eda()` para revisar estructura, tipos, estadísticos descriptivos, valores nulos, outliers e incluso limpieza con IQR.
 - Se detectaron y filtraron outliers en variables numéricas clave.
@@ -30,14 +30,14 @@ Realizar un análisis integral del comportamiento diario de producción de petr�
 
 ---
 
-## 📊 2. Exploración de Variables
+## 2. Exploración de Variables
 
-### 🔹 Producción de Petróleo
+### Producción de Petróleo
 
 ![Histograma Oil](../fig/histograma_oil.png)  
 La mayoría de los pozos producen entre 30.000 y 70.000 barriles diarios. Se detectaron algunos valores atípicos por encima de 100.000.
 
-### 🔹 Producción de Gas por Campo
+### Producción de Gas por Campo
 
 ![Boxplot Gas](../fig/boxplot_gas.png)  
 La dispersión en la producción de gas es significativa. El campo **Cupiagua** muestra gran variabilidad.
@@ -46,7 +46,7 @@ La dispersión en la producción de gas es significativa. El campo **Cupiagua** 
 
 ---
 
-## 💧 3. Análisis de Agua de Formación
+##  3. Análisis de Agua de Formación
 
 Se generó la variable `alta_agua` (True si corte de agua ≥ 30%) y se analizaron sus frecuencias por campo.
 
@@ -60,11 +60,11 @@ Se generó la variable `alta_agua` (True si corte de agua ≥ 30%) y se analizar
 | Chichimene  | 29.20%                |
 | Rubiales    | 27.20%                |
 
-💡 **Conclusión:** Cusiana y Cupiagua muestran signos de envejecimiento o intrusión de agua.
+**Conclusión:** Cusiana y Cupiagua muestran signos de envejecimiento o intrusión de agua.
 
 ---
 
-## 📈 4. Estadística Básica y Correlación
+## 4. Estadística Básica y Correlación
 
 ![Heatmap](../fig/heatmap_correlacion.png)
 
@@ -75,7 +75,7 @@ Se evaluaron correlaciones entre variables numéricas.
 
 ---
 
-## 🔍 5. Relaciones Visuales
+## 5. Relaciones Visuales
 
 ### Presión vs Producción
 
@@ -89,7 +89,7 @@ Relaciones entre variables clave coloreadas por campo. Destacan patrones distint
 
 ---
 
-## 📉 6. Regresión Lineal Simple
+## 6. Regresión Lineal Simple
 
 Se modeló la producción de petróleo (`oil_bbl`) en función de la presión del yacimiento (`reservoir_pressure_psi`).
 
@@ -102,11 +102,11 @@ Se modeló la producción de petróleo (`oil_bbl`) en función de la presión de
 | R²                  | ≈ -0.0397     |
 | MSE                 | ≈ 448,165,580 |
 
-⚠️ **Conclusión:** La presión no explica bien la variabilidad de producción. El modelo tiene bajo poder predictivo y requiere incorporar más variables.
+ **Conclusión:** La presión no explica bien la variabilidad de producción. El modelo tiene bajo poder predictivo y requiere incorporar más variables.
 
 ---
 
-## ✅ 7. Conclusiones y Recomendaciones
+## 7. Conclusiones y Recomendaciones
 
 - **Campos a monitorear:** *Cusiana* y *Cupiagua* debido a mayor proporción de días con alto corte de agua.
 - **Modelado:** El modelo lineal simple no es suficiente. Se recomienda un modelo multivariado no lineal.
@@ -118,7 +118,7 @@ Se modeló la producción de petróleo (`oil_bbl`) en función de la presión de
 
 ---
 
-🧠 *Análisis desarrollado con Python, pandas, seaborn, scikit-learn y matplotlib*  
-📂 Proyecto: `analisis-produccion-petrolera`  
-👨‍💻 Autores: *[Vanessa Morales - Isanevys Urdaneta]*  
-📆 Julio 2025
+ *Análisis desarrollado con Python, pandas, seaborn, scikit-learn y matplotlib*  
+ Proyecto: `analisis-produccion-petrolera`  
+ Autores: *[Vanessa Morales - Isanevys Urdaneta]*  
+ Julio 2025
