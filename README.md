@@ -49,7 +49,7 @@ Representa la frecuencia o el número de veces que se observa una determinada ca
 Distribución bimodal:
 La gráfica sugiere una distribución bimodal, lo que significa que hay dos picos principales o modas en la distribución de la producción de petróleo.
 El primer pico se encuentra alrededor de los 40.000 barriles, indicando que hay una alta frecuencia de producción de petróleo en ese rango.
-El segundo pico se sitúa aproximadamente entre los 80.000 y 90.000 barriles, lo que sugiere otra concentración significativa de producción en ese nivel.
+El segundo pico se sitúa cercano a los 90.000 barriles, lo que sugiere otra concentración significativa de producción en ese nivel.
 
 Curva de densidad (línea verde):
 La línea verde superpuesta es una estimación de la densidad de probabilidad, que suaviza la distribución y resalta los dos picos mencionados, mostrando la forma general de la distribución de la producción de petróleo.
