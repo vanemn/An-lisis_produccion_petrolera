@@ -34,8 +34,24 @@ Realizar un análisis integral del comportamiento diario de producción de petr�
 
 ### Producción de Petróleo
 
+Durante la exploracion se denota que la mayoría de los pozos producen entre 30.000 y 70.000 barriles diarios. Se detectaron algunos valores atípicos por encima de 100.000.
+
 ![Histograma Oil](fig/histograma_oil.png)  
-La mayoría de los pozos producen entre 30.000 y 70.000 barriles diarios. Se detectaron algunos valores atípicos por encima de 100.000.
+
+La gráfica muestra la distribución de la producción de petróleo (oil_bbl):
+Eje X (barril de petróleo):
+Representa la cantidad de barriles de petróleo producidos. Los valores van desde menos de 40.000 hasta más de 100.000 barriles.
+Eje Y (Conde):
+Representa la frecuencia o el número de veces que se observa una determinada cantidad de producción de petróleo.
+Distribución bimodal:
+La gráfica sugiere una distribución bimodal, lo que significa que hay dos picos principales o modas en la distribución de la producción de petróleo.
+El primer pico se encuentra alrededor de los 40.000 barriles, indicando que hay una alta frecuencia de producción de petróleo en ese rango.
+El segundo pico se sitúa aproximadamente entre los 80.000 y 90.000 barriles, lo que sugiere otra concentración significativa de producción en ese nivel.
+Curva de densidad (línea verde):
+La línea verde superpuesta es una estimación de la densidad de probabilidad, que suaviza la distribución y resalta los dos picos mencionados, mostrando la forma general de la distribución de la producción de petróleo.
+Rangos de menor frecuencia:
+Se observa una menor frecuencia de producción en rangos intermedios, como entre los 50.000 y 70.000 barriles, donde la altura de las barras y la curva de densidad son menores. También hay una disminución en la frecuencia en los extremos de la distribución, tanto por debajo de los 30.000 como por encima de los 100.000 barriles.
+
 
 ### Producción de Gas por Campo
 
