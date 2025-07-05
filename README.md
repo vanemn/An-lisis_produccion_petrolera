@@ -41,14 +41,18 @@ La mayoría de los pozos producen entre 30.000 y 70.000 barriles diarios. Se det
 
 ![Boxplot Gas](fig/boxplot_gas.png)  
 La dispersión en la producción de gas es significativa. El campo **Cupiagua** muestra gran variabilidad.
+
 Mediana (línea central dentro de la caja):
 Rubiales : tiene la mediana más alta, lo que indica que la mitad de la producción de gas de este campo supera a la de los otros.
 Cupiagua : y Cusiana tienen las medianas más bajas, sugiriendo una menor producción de gas en promedio.
+
 Rango Intercuartílico (IQR - la caja):
 Rubiales : presenta una caja más grande, lo que sugiere una mayor variabilidad en la producción de gas dentro de este campo en comparación con los demás.
 Cupiagua : y Cusiana tienen cajas más pequeñas, indicando una menor dispersión en sus datos de producción.
+
 Bigotes (líneas que se extienden desde la caja):
 Los bigotes muestran el rango general de los datos, excluyendo los valores atípicos.
+
 Valores Atípicos (puntos fuera de los bigotes):
 Se observan valores atípicos (puntos) en Cupiagua, Rubiales, Chichimene y Cusiana, lo que indica mediciones de producción que se desvían significativamente del patrón general de cada campo.
 
