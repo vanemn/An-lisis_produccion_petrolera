@@ -34,15 +34,15 @@ Realizar un análisis integral del comportamiento diario de producción de petr�
 
 ### Producción de Petróleo
 
-![Histograma Oil](../fig/histograma_oil.png)  
+![Histograma Oil](fig/histograma_oil.png)  
 La mayoría de los pozos producen entre 30.000 y 70.000 barriles diarios. Se detectaron algunos valores atípicos por encima de 100.000.
 
 ### Producción de Gas por Campo
 
-![Boxplot Gas](../fig/boxplot_gas.png)  
+![Boxplot Gas](fig/boxplot_gas.png)  
 La dispersión en la producción de gas es significativa. El campo **Cupiagua** muestra gran variabilidad.
 
-📁 [frecuencia_por_campo.csv](../fig/frecuencia_por_campo.csv) confirma una distribución de registros relativamente balanceada entre campos.
+📁 [frecuencia_por_campo.csv](fig/frecuencia_por_campo.csv) confirma una distribución de registros relativamente balanceada entre campos.
 
 ---
 
@@ -50,8 +50,8 @@ La dispersión en la producción de gas es significativa. El campo **Cupiagua** 
 
 Se generó la variable `alta_agua` (True si corte de agua ≥ 30%) y se analizaron sus frecuencias por campo.
 
-📁 [tabla_alta_agua.csv](../fig/tabla_alta_agua.csv)  
-📁 [porcentaje_alta_agua.csv](../fig/porcentaje_alta_agua.csv)
+📁 [tabla_alta_agua.csv](fig/tabla_alta_agua.csv)  
+📁 [porcentaje_alta_agua.csv](fig/porcentaje_alta_agua.csv)
 
 | Campo       | % Días con Alta Agua |
 |-------------|-----------------------|
@@ -66,7 +66,7 @@ Se generó la variable `alta_agua` (True si corte de agua ≥ 30%) y se analizar
 
 ## 4. Estadística Básica y Correlación
 
-![Heatmap](../fig/heatmap_correlacion.png)
+![Heatmap](fig/heatmap_correlacion.png)
 
 Se evaluaron correlaciones entre variables numéricas.
 
@@ -79,12 +79,12 @@ Se evaluaron correlaciones entre variables numéricas.
 
 ### Presión vs Producción
 
-![Presión vs Producción](../fig/Presion_vs_produccion.png)  
+![Presión vs Producción](fig/Presion_vs_produccion.png)  
 Aunque se sugiere una relación directa, hay mucha dispersión. No se observa tendencia clara.
 
 ### Pairplot
 
-![Pairplot](../fig/pairplot_variables.png)  
+![Pairplot](fig/pairplot_variables.png)  
 Relaciones entre variables clave coloreadas por campo. Destacan patrones distintos entre Rubiales y Cupiagua, especialmente en gas y temperatura.
 
 ---
@@ -93,7 +93,7 @@ Relaciones entre variables clave coloreadas por campo. Destacan patrones distint
 
 Se modeló la producción de petróleo (`oil_bbl`) en función de la presión del yacimiento (`reservoir_pressure_psi`).
 
-📁 [metricas_modelo.csv](../fig/metricas_modelo.csv)
+📁 [metricas_modelo.csv](fig/metricas_modelo.csv)
 
 | Métrica             | Resultado     |
 |---------------------|---------------|
