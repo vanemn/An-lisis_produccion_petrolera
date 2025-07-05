@@ -2,13 +2,10 @@
 #Informe de Tarea Interna – Análisis de Producción Petrolera en Colombia
 #importar librerias
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 import seaborn as sns
-from matplotlib.backends.backend_pdf import PdfPages
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_log_error, mean_absolute_error,r2_score
+from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
  
