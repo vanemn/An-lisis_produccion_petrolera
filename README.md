@@ -2,7 +2,7 @@
 
 #  Informe de Tarea Interna – Análisis de Producción Petrolera en Colombia
 
-**Empresa:** Ecopetrol S.A.  
+  
 **Departamento:** Dirección Técnica de Producción  
 **Área Responsable:** Inteligencia Operativa – Análisis de Datos  
 **Archivo Base:** petroleum_colombia_500.csv  
